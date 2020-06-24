@@ -180,6 +180,10 @@ There seem to be bad sensors from time to time, which are far away from the bloo
 
 If the sensor moved a little bit on the skin or is lifted somehow this can cause bad results. The filament which sits in the tissue is a little bit pulled out of the tissue and will measure different results then. Mostly probably you will see jumping values in xDrip+. Or the difference to the bloody values change. Please replace the sensor immediately! The results are inaccurate now.
 
+No values in xDrip+
+--------------------------------------------------
+On some Android phones there is a settings plugin that's called "Auto run Management" or similar that is preventing apps from starting in the background so that xDrip+ doesn't receive any readings (Even if you have no exclamation mark in the patched Librelink app). If present, make sure that you have enabled the patched LibreLink app and xDrip+ to run in the background.
+
 Using bluetooth transmitter and OOP
 ==================================================
 
